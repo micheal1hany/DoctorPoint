@@ -1,9 +1,8 @@
 //
 //  ViewEmbedder.swift
+//  DoctorPoint
 //
-//  Created by khaled mohammed on 6/21/18.
-//  Copyright © 2018 aaits. All rights reserved.
-//
+//  Created by Micheal Hany on 5/13/22.
 
 import UIKit
 
