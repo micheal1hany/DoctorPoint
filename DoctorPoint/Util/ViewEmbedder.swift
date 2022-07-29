@@ -27,11 +27,11 @@ class ViewEmbedder {
     }
     
 //    class func removeFromParent(vc:UIViewController){
-//      // if (vc.className != "hdrMenuC"){
+//       if (vc.className != "hdrMenuC"){
 //            vc.willMove(toParent: nil)
 //            vc.view.removeFromSuperview()
 //            vc.removeFromParent()
-//      //  }
+//        }
 //    }
     
     class func embed(withIdentifier id:String, parent:UIViewController, container:UIView,_ story:String = "Home"){

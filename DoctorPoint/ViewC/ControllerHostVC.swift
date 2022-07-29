@@ -11,13 +11,14 @@ class ControllerHostVC: UIViewController {
     
     @IBOutlet var container: UIView!
     
-    
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var notificationBtn: UIButton!
     @IBOutlet weak var searchBtn: UIButton!
     @IBOutlet weak var docsBtn: UIButton!
     @IBOutlet weak var categoryBtn: UIButton!
     
+    
+    var lastSender = 1
     var requestID = "home"
     var requestStory = "Home"
     
@@ -27,6 +28,7 @@ class ControllerHostVC: UIViewController {
         
         
         replacev()
+        homeBtn.isSelected = true
 
         
     }
@@ -39,32 +41,49 @@ class ControllerHostVC: UIViewController {
     }
     
     
-    @IBAction func homeBtn(_ sender: Any) {
+    
+    
+    @IBAction func btnPressed(_ sender: UIButton!){
         
         
-    }
-    @IBAction func notificationBtn(_ sender: Any) {
+        if let lastbtnPressed:UIButton = view.viewWithTag(lastSender) as? UIButton{
+            lastbtnPressed.isSelected = false
+        }
         
         
-        notificationBtn.isSelected = true
-    }
-    @IBAction func searchBtn(_ sender: Any) {
-    }
-    @IBAction func docsBtn(_ sender: Any) {
-    }
-    @IBAction func categoryBtn(_ sender: Any) {
+        switch sender.tag {
+        case 1:
+            requestID = "home"
+            replacev()
+            homeBtn.isSelected = true
+            break
+        case 2:
+            requestID = "notification"
+            replacev()
+            notificationBtn.isSelected = true
+            break
+        case 3:
+            requestID = "search"
+            replacev()
+            searchBtn.isSelected = true
+            break
+        case 4:
+            requestID = "document"
+            replacev()
+            docsBtn.isSelected = true
+            break
+        case 5:
+            requestID = "category"
+            replacev()
+            categoryBtn.isSelected = true
+            break
+        default:
+            break
+        }
+        
+        lastSender = sender.tag
+        
     }
     
-//    func btnClicked(_ key: Int, _ btn:UIButton){
-//        switch key {
-//        case 1:
-//            btn.backgroundImage(for: .normal)?.alpha(1)
-//        default:
-//            return
-//        }
-//    }
-//
-    
-  
 
 }

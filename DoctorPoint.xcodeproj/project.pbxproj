@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0B18F32892124100F82783 /* SpecialistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0B18F22892124100F82783 /* SpecialistCollectionViewCell.swift */; };
+		FD0B18FB289215F600F82783 /* SpecialityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0B18FA289215F600F82783 /* SpecialityViewModel.swift */; };
 		FD2093A1282C5A770012C9AD /* UIViewControllerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2093A0282C5A770012C9AD /* UIViewControllerEX.swift */; };
 		FD2093B4282C5C8A0012C9AD /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2093B3282C5C8A0012C9AD /* OnBoardingVC.swift */; };
 		FD2093BA282C72CB0012C9AD /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2093B9282C72CB0012C9AD /* OnboardingSlide.swift */; };
@@ -24,8 +26,21 @@
 		FD294E2827F39CE00007FEA7 /* LandingC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD294E2727F39CE00007FEA7 /* LandingC.swift */; };
 		FD294E3027F39CF20007FEA7 /* SignInC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD294E2F27F39CF20007FEA7 /* SignInC.swift */; };
 		FD294E3527F39D120007FEA7 /* CreateAccountC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD294E3427F39D120007FEA7 /* CreateAccountC.swift */; };
+		FDC530D628906980007087A5 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC530D528906980007087A5 /* NotificationVC.swift */; };
+		FDC530DB28907F54007087A5 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC530DA28907F54007087A5 /* SearchVC.swift */; };
+		FDC530FF28909F06007087A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC530FE28909F06007087A5 /* User.swift */; };
+		FDC5310428909FAC007087A5 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5310328909FAC007087A5 /* Doctor.swift */; };
+		FDC531092890A058007087A5 /* Speciality.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC531082890A058007087A5 /* Speciality.swift */; };
+		FDCEF70028922E68009A2443 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCEF6FF28922E68009A2443 /* LoginService.swift */; };
+		FDCEF70528922EEB009A2443 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCEF70428922EEB009A2443 /* LoginViewModel.swift */; };
+		FDCEF7102892313D009A2443 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCEF70F2892313D009A2443 /* ObservableObject.swift */; };
 		FDF87CB8282ED4A6009FD6C1 /* ViewEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF87CB6282ED4A6009FD6C1 /* ViewEmbedder.swift */; };
 		FDF87CC8282EF497009FD6C1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF87CC7282EF497009FD6C1 /* HomeVC.swift */; };
+		FDFFC30B28940D6A0091A65C /* OfferBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFC30A28940D6A0091A65C /* OfferBannerCollectionViewCell.swift */; };
+		FDFFC310289416D10091A65C /* Offers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFC30F289416D10091A65C /* Offers.swift */; };
+		FDFFC315289417BA0091A65C /* OffersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFC314289417BA0091A65C /* OffersViewModel.swift */; };
+		FDFFC31A289420380091A65C /* TopDoctorsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFC319289420380091A65C /* TopDoctorsCollectionViewCell.swift */; };
+		FDFFC31F2894211D0091A65C /* DoctorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFC31E2894211D0091A65C /* DoctorsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD0B18F22892124100F82783 /* SpecialistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD0B18FA289215F600F82783 /* SpecialityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialityViewModel.swift; sourceTree = "<group>"; };
 		FD2093A0282C5A770012C9AD /* UIViewControllerEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEX.swift; sourceTree = "<group>"; };
 		FD2093B3282C5C8A0012C9AD /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
 		FD2093B9282C72CB0012C9AD /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
@@ -69,8 +86,21 @@
 		FD294E2727F39CE00007FEA7 /* LandingC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingC.swift; sourceTree = "<group>"; };
 		FD294E2F27F39CF20007FEA7 /* SignInC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInC.swift; sourceTree = "<group>"; };
 		FD294E3427F39D120007FEA7 /* CreateAccountC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountC.swift; sourceTree = "<group>"; };
+		FDC530D528906980007087A5 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		FDC530DA28907F54007087A5 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		FDC530FE28909F06007087A5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FDC5310328909FAC007087A5 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		FDC531082890A058007087A5 /* Speciality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speciality.swift; sourceTree = "<group>"; };
+		FDCEF6FF28922E68009A2443 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		FDCEF70428922EEB009A2443 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FDCEF70F2892313D009A2443 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		FDF87CB6282ED4A6009FD6C1 /* ViewEmbedder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEmbedder.swift; sourceTree = "<group>"; };
 		FDF87CC7282EF497009FD6C1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FDFFC30A28940D6A0091A65C /* OfferBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		FDFFC30F289416D10091A65C /* Offers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offers.swift; sourceTree = "<group>"; };
+		FDFFC314289417BA0091A65C /* OffersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewModel.swift; sourceTree = "<group>"; };
+		FDFFC319289420380091A65C /* TopDoctorsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDoctorsCollectionViewCell.swift; sourceTree = "<group>"; };
+		FDFFC31E2894211D0091A65C /* DoctorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +128,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD0B18F1289211FB00F82783 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FD2093BF282C74CF0012C9AD /* OnboardingCollectionViewCell.swift */,
+				FD0B18F22892124100F82783 /* SpecialistCollectionViewCell.swift */,
+				FDFFC30A28940D6A0091A65C /* OfferBannerCollectionViewCell.swift */,
+				FDFFC319289420380091A65C /* TopDoctorsCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		FD20939E282C5A180012C9AD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,13 +150,12 @@
 		FD20939F282C5A270012C9AD /* ViewC */ = {
 			isa = PBXGroup;
 			children = (
+				FDC530DF289094ED007087A5 /* Auth */,
 				FD2093BE282C74880012C9AD /* Onboarding */,
-				FD294DF827F39CA10007FEA7 /* SplachVC.swift */,
-				FD294E2727F39CE00007FEA7 /* LandingC.swift */,
-				FD294E2F27F39CF20007FEA7 /* SignInC.swift */,
-				FD294E3427F39D120007FEA7 /* CreateAccountC.swift */,
 				FD2093DA282C85BE0012C9AD /* ControllerHostVC.swift */,
 				FDF87CC7282EF497009FD6C1 /* HomeVC.swift */,
+				FDC530D528906980007087A5 /* NotificationVC.swift */,
+				FDC530DA28907F54007087A5 /* SearchVC.swift */,
 			);
 			path = ViewC;
 			sourceTree = "<group>";
@@ -124,6 +164,10 @@
 			isa = PBXGroup;
 			children = (
 				FD2093B9282C72CB0012C9AD /* OnboardingSlide.swift */,
+				FDC530FE28909F06007087A5 /* User.swift */,
+				FDC5310328909FAC007087A5 /* Doctor.swift */,
+				FDC531082890A058007087A5 /* Speciality.swift */,
+				FDFFC30F289416D10091A65C /* Offers.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				FD2093B3282C5C8A0012C9AD /* OnBoardingVC.swift */,
-				FD2093BF282C74CF0012C9AD /* OnboardingCollectionViewCell.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -160,6 +203,9 @@
 		FD294DF327F39CA10007FEA7 /* DoctorPoint */ = {
 			isa = PBXGroup;
 			children = (
+				FD0B18F1289211FB00F82783 /* Cells */,
+				FDC5310F2890A2E1007087A5 /* Data */,
+				FDC5310E2890A214007087A5 /* ViewModels */,
 				FDE73CC4288F5E2400A218A9 /* StoryBoards */,
 				FDF87CCC282EF545009FD6C1 /* Util */,
 				FD2093B8282C72AD0012C9AD /* Models */,
@@ -192,6 +238,52 @@
 			path = DoctorPointUITests;
 			sourceTree = "<group>";
 		};
+		FDC530DF289094ED007087A5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FD294DF827F39CA10007FEA7 /* SplachVC.swift */,
+				FD294E2727F39CE00007FEA7 /* LandingC.swift */,
+				FD294E2F27F39CF20007FEA7 /* SignInC.swift */,
+				FD294E3427F39D120007FEA7 /* CreateAccountC.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FDC5310E2890A214007087A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B18FA289215F600F82783 /* SpecialityViewModel.swift */,
+				FDCEF70428922EEB009A2443 /* LoginViewModel.swift */,
+				FDFFC314289417BA0091A65C /* OffersViewModel.swift */,
+				FDFFC31E2894211D0091A65C /* DoctorsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FDC5310F2890A2E1007087A5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FDC531112890A2F5007087A5 /* Remote */,
+				FDC531102890A2EA007087A5 /* Local */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FDC531102890A2EA007087A5 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		FDC531112890A2F5007087A5 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				FDCEF6FF28922E68009A2443 /* LoginService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
 		FDE73CC4288F5E2400A218A9 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				FDF87CB6282ED4A6009FD6C1 /* ViewEmbedder.swift */,
+				FDCEF70F2892313D009A2443 /* ObservableObject.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -343,16 +436,31 @@
 				FDF87CB8282ED4A6009FD6C1 /* ViewEmbedder.swift in Sources */,
 				FDF87CC8282EF497009FD6C1 /* HomeVC.swift in Sources */,
 				FD294DF927F39CA10007FEA7 /* SplachVC.swift in Sources */,
+				FD0B18FB289215F600F82783 /* SpecialityViewModel.swift in Sources */,
 				FD2093B4282C5C8A0012C9AD /* OnBoardingVC.swift in Sources */,
+				FDFFC30B28940D6A0091A65C /* OfferBannerCollectionViewCell.swift in Sources */,
+				FDC530FF28909F06007087A5 /* User.swift in Sources */,
+				FDFFC315289417BA0091A65C /* OffersViewModel.swift in Sources */,
+				FDCEF7102892313D009A2443 /* ObservableObject.swift in Sources */,
+				FDC5310428909FAC007087A5 /* Doctor.swift in Sources */,
+				FDC531092890A058007087A5 /* Speciality.swift in Sources */,
+				FDCEF70528922EEB009A2443 /* LoginViewModel.swift in Sources */,
 				FD294E2827F39CE00007FEA7 /* LandingC.swift in Sources */,
 				FD2093A1282C5A770012C9AD /* UIViewControllerEX.swift in Sources */,
+				FDC530DB28907F54007087A5 /* SearchVC.swift in Sources */,
 				FD294DF527F39CA10007FEA7 /* AppDelegate.swift in Sources */,
 				FD294DF727F39CA10007FEA7 /* SceneDelegate.swift in Sources */,
+				FDFFC31A289420380091A65C /* TopDoctorsCollectionViewCell.swift in Sources */,
+				FDCEF70028922E68009A2443 /* LoginService.swift in Sources */,
+				FD0B18F32892124100F82783 /* SpecialistCollectionViewCell.swift in Sources */,
 				FD294E3027F39CF20007FEA7 /* SignInC.swift in Sources */,
 				FD2093C0282C74CF0012C9AD /* OnboardingCollectionViewCell.swift in Sources */,
 				FD2093BA282C72CB0012C9AD /* OnboardingSlide.swift in Sources */,
 				FD2093DB282C85BE0012C9AD /* ControllerHostVC.swift in Sources */,
+				FDFFC310289416D10091A65C /* Offers.swift in Sources */,
 				FD294E3527F39D120007FEA7 /* CreateAccountC.swift in Sources */,
+				FDC530D628906980007087A5 /* NotificationVC.swift in Sources */,
+				FDFFC31F2894211D0091A65C /* DoctorsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
